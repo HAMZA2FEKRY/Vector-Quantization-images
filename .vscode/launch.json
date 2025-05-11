@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Project information theory_819608d7"
+        },
+        {
+            "type": "java",
+            "name": "Debug Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "${workspaceFolder}",
+            "console": "internalConsole",
+            "timeout": 60000,
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Run Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "${workspaceFolder}",
+            "console": "internalConsole",
+            "timeout": 60000,
+            "stopOnEntry": false
+        },
+        {
+            "type": "java",
+            "name": "Debug with External Terminal",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "timeout": 60000
+        }
+    ]
+}
